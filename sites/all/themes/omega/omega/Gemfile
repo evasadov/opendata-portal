@@ -17,7 +17,7 @@ group :development do
   gem 'css_parser'              # Helps `compass stats` output statistics.
 
   # Guard
-  gem 'guard'                   # Guard event handler.
+  gem 'guard'                   , '>= 2.18.1' # Guard event handler.
   gem 'guard-compass'           # Compile on sass/scss change.
   gem 'guard-shell'             # Run shell commands.
   gem 'guard-livereload'        # Browser reload.
